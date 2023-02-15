@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravellingAssistantLight"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddMaintenanceRequest"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddAdditional"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddTransactionScreen"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AdditionalRequestItem"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionItem"
+            android:exported="false" />
+        <activity
+            android:name=".AddProductScreen"
+            android:exported="false"
+            android:label="Add Product"
+            android:parentActivityName=".WeeklyBalance" />
+        <activity
+            android:name=".layout_products"
+            android:exported="false" />
+        <activity
+            android:name=".Reports"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Reports" />
+        <activity
+            android:name=".AdditionalRequest"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Additional Request" />
+        <activity
+            android:name=".MaintenanceRequest"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Maintenance Request" />
+        <activity
+            android:name=".StoresInList"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Registered Stores" />
+        <activity
+            android:name=".SaleTransactions"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Sale Transactions" />
+        <activity
+            android:name=".WeeklyBalance"
+            android:exported="false"
+            android:label="Weekly Balance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Maheresio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

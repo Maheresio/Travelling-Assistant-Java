@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAdditional"
+  android:padding="30dp">
+
+
+  <EditText
+      android:id="@+id/add_additional_storeNameEditTxt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Store Name"
+      android:keyboardNavigationCluster="true"
+      android:inputType="text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/add_additional_productNameEditTxt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+
+      android:ems="10"
+      android:hint="Product Name"
+      android:inputType="text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/add_additional_storeNameEditTxt" />
+
+  <EditText
+      android:id="@+id/add_additional_quantity_EditTxt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:ems="10"
+
+      android:hint="Quantity"
+      android:keyboardNavigationCluster="true"
+      android:inputType="number"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/add_additional_productNameEditTxt" />
+
+  <EditText
+      android:id="@+id/add_additional_dateEditTxt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:ems="10"
+      android:hint="Date"
+      android:keyboardNavigationCluster="true"
+      android:inputType="numberDecimal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/add_additional_quantity_EditTxt"
+      android:clickable="false"
+      android:cursorVisible="false"
+      android:focusable="false"
+      android:focusableInTouchMode="false"
+
+      />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

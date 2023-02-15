@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Travelling Assistant</string>
+    <string name="weeklyBalance">weekly Balance</string>
+    <string name="createTable">"CREATE TABLE "</string>
+    <string name="sale_transactions">Sale Transactions</string>
+    <string name="registered_stores">Registered Stores</string>
+    <string name="maintenance_request">Maintenance Request</string>
+    <string name="additional_request">Additional Request</string>
+    <string name="reports">Reports</string>
+    <string name="title_activity_weekly_balance">WeeklyBalance</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string-array name="problems_array">
+        <item>energy</item>
+        <item>bad usage</item>
+        <item> encapsulation problem</item>
+        <item>something else</item>
+
+    </string-array>
+
+</resources>
